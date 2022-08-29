@@ -96,7 +96,7 @@ body{
     display: flex;
     flex-flow: column;
     width: 100%;
-    height: 85%;
+    height: 90%;
     background-color: white;
     overflow-y: auto;
     left: -100%;
