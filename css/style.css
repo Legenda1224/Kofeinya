@@ -512,6 +512,11 @@ header{
     height: 95px;
 }
 
+.container__main{
+    padding: 0px 20px;
+    height: 650px;
+}
+
 .burger-menu{
     display: block;
 }
@@ -589,12 +594,21 @@ ul li a{
 
 @media screen and (max-width:651px){
     .container__main h3{
-        font-size: 40px;
+        font-size: 50px;
     }
     
     .container__main p{
-        top: 0px;
+        top: -20px;
         font-size: 18px;
+    }
+
+    .container__fon{
+        height: 90vh;
+    }
+
+    .container__main{
+        padding: 0px 20px;
+        height: 600px;
     }
 }
 
